@@ -13416,11 +13416,6 @@ NS Package M08A</description>
 <pinref part="IC2" gate="A" pin="TR"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="147.32" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="OUT" gate="G$1" pin="TIP"/>

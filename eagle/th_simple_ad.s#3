@@ -13159,8 +13159,8 @@ NS Package M08A</description>
 <part name="C7" library="rcl" deviceset="C-US" device="050-024X044" value="10n"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
-<part name="DECAY" library="pot" deviceset="3RP/1610N" device=""/>
-<part name="ATTACK" library="pot" deviceset="3RP/1610N" device=""/>
+<part name="DECAY" library="pot" deviceset="3RP/1610N" device="" value="1M log"/>
+<part name="ATTACK" library="pot" deviceset="3RP/1610N" device="" value="1M log"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0207/10" value="2k"/>
 <part name="IC1" library="linear" deviceset="TL071" device="P"/>
