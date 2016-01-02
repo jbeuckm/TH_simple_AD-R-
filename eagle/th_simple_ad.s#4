@@ -13159,8 +13159,8 @@ NS Package M08A</description>
 <part name="C7" library="rcl" deviceset="C-US" device="050-024X044" value="10n"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
-<part name="DECAY" library="pot" deviceset="3RP/1610N" device=""/>
-<part name="ATTACK" library="pot" deviceset="3RP/1610N" device=""/>
+<part name="DECAY" library="pot" deviceset="3RP/1610N" device="" value="1M log"/>
+<part name="ATTACK" library="pot" deviceset="3RP/1610N" device="" value="1M log"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0207/10" value="2k"/>
 <part name="IC1" library="linear" deviceset="TL071" device="P"/>
@@ -13414,11 +13414,6 @@ NS Package M08A</description>
 <wire x1="73.66" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <junction x="73.66" y="68.58"/>
 <pinref part="IC2" gate="A" pin="TR"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="147.32" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
